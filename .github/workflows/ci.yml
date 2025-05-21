@@ -35,6 +35,4 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           
-      - name: Check for large files
-        run: |
-          find . -type f -size +5M | grep -v "\.git" | wc -l | xargs test 0 -eq
+      

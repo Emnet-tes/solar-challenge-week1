@@ -8,4 +8,6 @@ plotly
 notebook
 windrose 
 ipykernel
+pytest
+pytest-cov
 
